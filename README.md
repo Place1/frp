@@ -12,7 +12,7 @@ This container is configured by two environment variables:
 
 ### Server
 
-```
+```bash
 CONFIG="
     [common]
     server_port = 7000
@@ -23,7 +23,7 @@ docker run --rm -it -e MODE="server" -e "CONFIG=$CONFIG" place1/frp
 
 ### Client
 
-```
+```bash
 CONFIG="
     [common]
     server_addr = x.x.x.x
